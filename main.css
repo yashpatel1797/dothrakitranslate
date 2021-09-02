@@ -1,0 +1,62 @@
+:root{
+    --color: black;
+    --primary-color: #5ba561;
+}
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    background-color:var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+main{
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+input{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: large;
+}
+button{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+h1 {
+    
+    border: 1px black;
+}
+div {
+    display: block;
+    margin: 1rem;
+    padding: 1rem; 
+    width: 80%;
+    font-size: large;
+    border: 1px black;
+}
+#div-output {
+    box-sizing: border-box;
+    width: 80%;
+    min-height: 10vh;
+    border: 1px solid black;
+    overflow: scroll;
+    max-height: 20vh;
+}
+footer{
+    background-color:var(--primary-color);
+    padding: 1rem;
+    
+    text-align: center;
+}
+p{
+    max-width: 600px;
+    margin: auto;
+}
