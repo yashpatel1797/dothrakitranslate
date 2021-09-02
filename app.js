@@ -2,7 +2,6 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#div-output");
 var minionURL = "https://api.funtranslations.com/translate/dothraki.json";
-
 function getTranslationURL(text) {
     return minionURL + "?" + "text=" + text
 }
